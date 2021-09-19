@@ -1,0 +1,18 @@
+import estruturaDeDados.VetorNaoOrdenado.VetorNaoOrdenado as vtn
+
+vetor = vtn.VetorNaoOrdenado(5)
+vetor.insere(2)
+vetor.insere(3)
+vetor.insere(5)
+vetor.insere(8)
+vetor.insere(1)
+print('====================')
+vetor.insere(30)
+print('====================')
+vetor.imprime()
+print('====================')
+print(vetor.pesquisar(8))
+print('====================')
+vetor.excluir(5)
+vetor.insere(30)
+vetor.imprime()
