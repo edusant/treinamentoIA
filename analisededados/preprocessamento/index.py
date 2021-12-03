@@ -6,4 +6,6 @@ import plotly.express as px
 
 
 dadoscredit = pd.read_csv('credit_data.csv')
-print(dadoscredit)
+
+
+print(dadoscredit.describe())
