@@ -16,6 +16,8 @@ def fitness_function(agenda):
     volta = dados.voos[(dados.destino, origem)][agenda[id_voo]]
     total_preco += volta[2]
 
-  print('Preço total: ', total_preco)
+  return  total_preco;
+
+  #print('Preço total: ', total_preco)
 
 fitness_function(agenda)

@@ -20,4 +20,4 @@ def imprimir_voos(agenda):
                                                 volta[0], volta[1], volta[2]))
   print('Preço total: ', total_preco)
 
-imprimir_voos(agenda)
+#imprimir_voos(agenda)
